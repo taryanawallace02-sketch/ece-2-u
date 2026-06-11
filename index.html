@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECE 2 U</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to ECE 2 U</h1>
+        <div class="language-selector">
+            <label for="language">Select Language:</label>
+            <select id="language" onchange="changeLanguage()">
+                <option value="en">English</option>
+                <option value="es">Spanish</option>
+                <option value="fr">French</option>
+                <option value="de">German</option>
+                <option value="tr">Turkish</option>
+                <option value="ko">Korean</option>
+                <option value="pa">Punjabi</option>
+                <option value="ar">Arabic</option>
+                <option value="zh">Mandarin</option>
+                <option value="pt">Portuguese</option>
+            </select>
+        </div>
+    </header>
+    <main>
+        <div class="button-container">
+            <button onclick="location.href='teacher.html'" class="main-button">I am a Teacher</button>
+            <button onclick="location.href='parent.html'" class="main-button">I am a Parent</button>
+        </div>
+    </main>
+    <footer>
+        <p>© 2026 ECE 2 U. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
